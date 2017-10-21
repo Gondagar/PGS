@@ -6,7 +6,7 @@
     <title>Logo page</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
@@ -27,17 +27,11 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
             <ul class="navbar-nav mt-2 mt-md-0">
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="/registry.jsp">Sing in <span class="sr-only">(current)</span></a>
+                <li class="nav-item active mr-1">
+                    <a href="/registry.jsp" class="btn btn-success">Rejestracja</a>
                 </li>
-
                 <li class="nav-item active">
-                    <a class="nav-link" href="/login.jsp">Log in <span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a href="/login.jsp" class="btn btn-info">Zaloguj sie</a>
                 </li>
             </ul>
 
@@ -45,46 +39,21 @@
     </div>
 </header>
 
-<article>
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-12 col-sm-10 col-md-8 col-lg-6 ">
-                <div class="card mx-auto px-5 py-4 mt-5 ">
-                    <div class="card-block login-block">
-                        <h4 class="card-title">Logowanie</h4>
-                        <p class="card-text">Wprowadź swoje dane poniżej</p>
-                        <img src="https://i.stack.imgur.com/I6K3E.png" class="logo">
-                        <form action="login.do" method="get">
-                            <div class="form-group">
-                                <label for="disabledTextInput">E-MAIL</label>
-                                <input type="text" id="login" name="login" class="form-control"
-                                       placeholder="Podaj swój e-mail">
-                            </div>
-                            <div class="form-group">
-                                <label for="disabledSelect">HASŁO</label>
-                                <input type="password" id="pass" name="pass" class="form-control"
-                                       placeholder="Podaj swoje hasło">
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" name="forgot"> Zapamientaj mnie </label>
-                            </div>
-                            <div class="form-group text-center">
-                                <input type="submit" class="btn btn-primary text-lg-center login-button px-5"
-                                       value="Zaloguj się">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<script>
+    window.onload = function () {
+        particlesJS.load('particles-js', 'https://api.myjson.com/bins/wj7mv.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    };
+
+</script>
 
 <footer>
     <div class="container fixed-bottom">
         <div class="row">
-            <div class="col bg-inverse p-4">
+            <div class="col bg-inverse p-2">
                 <p class="text-white text-center mb-0">Made with <i class="fa fa-heart text-danger"
                                                                     aria-hidden="true"></i> by Serhij Moskalenko</p>
             </div>
@@ -92,7 +61,9 @@
     </div>
 </footer>
 
+
 <!-- SCRIPTS: Begin -->
+<script src="js/particles.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
         integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
         crossorigin="anonymous"></script>

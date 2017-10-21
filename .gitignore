@@ -1,0 +1,72 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.idea/artifacts/
+.idea/compiler.xml
+.idea/copyright/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dataSources/093c4142-9f7f-4690-9118-1b532a54052e/
+.idea/dataSources/7399b759-e359-4e7a-90db-4a5b9434ad63/_metadata_/
+.idea/dataSources/7399b759-e359-4e7a-90db-4a5b9434ad63/_staging_/
+.idea/dataSources/7399b759-e359-4e7a-90db-4a5b9434ad63/storage.xml
+.idea/dataSources/7427d275-df6b-4af7-b764-335216ffe9dc/
+.idea/dataSources/a530dd22-c319-4607-b857-af7b1836965e/
+.idea/dataSources/c1fa7514-eac6-41e4-910c-a9f84f8c6b55/
+.idea/dataSources/c7bff2f9-0121-4ed4-8245-1d060607a833.xml
+.idea/deployment.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/sqldialects.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace (Конфликтующая копия с компьютера Asus 2016-10-22).xml
+.idea/workspace (Конфликтующая копия с компьютера Asus 2016-11-03).xml
+.idea/workspace.xml
+logs/
+out/
+src/main/java/pl/well/debag/
+src/main/java/pl/well/web/Proporties/
+src/main/resources/spring.xml
+src/main/resources/sqlExample/
+src/main/webapp/WEB-INF/classes/
+target/PGS.site-0.01/JSP/
+target/PGS.site-0.01/META-INF/
+target/PGS.site-0.01/WEB-INF/classes/log4j.xml
+target/PGS.site-0.01/WEB-INF/classes/spring.xml
+target/PGS.site-0.01/WEB-INF/classes/sqlExample/
+target/PGS.site-0.01/WEB-INF/web.xml
+target/PGS.site-0.01/css/
+target/PGS.site-0.01/error/
+target/PGS.site-0.01/index.html
+target/PGS.site-0.01/js/
+target/PGS.site-0.01/login.jsp
+target/PGS.site-0.01/registry.jsp
+target/PGS.site-0.01/template/
+target/classes/log4j.xml
+target/classes/spring.xml
+target/classes/sqlExample/
+target/generated-sources/
+target/maven-status/

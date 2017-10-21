@@ -164,7 +164,7 @@
 
     <welcome-file-list>
         <welcome-file>
-            login.jsp
+            index.html
         </welcome-file>
 
     </welcome-file-list>
