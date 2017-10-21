@@ -1,0 +1,61 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.header-border {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 20%;
+}
+
+.logo-icon {
+    background-color: #ff7626;
+}
+
+.login-block {
+    position: relative;
+}
+
+.login-button {
+    background-color: #ff7626 !important;
+    border-color: #db5100 !important;
+}
+
+.login-button:hover {
+    background-color: #db5100 !important;
+    border-color: #b44300 !important;
+    cursor: pointer;
+}
+
+.pgs-text-color {
+    color: #ff7626;
+}
+
+.pgs-text-color:hover {
+    color: #db5100;
+}
+
+.border-bottom {
+    border-bottom: 2px solid rgba(101, 101, 101, 0.16);
+}
+
+.border-right {
+    border-right: 2px solid rgba(101, 101, 101, 0.16);
+}
+
+.border-right > * {
+    border-right: 2px solid #eceeef;
+}
+
+.border-right > *:last-child {
+    border-right: 2px solid #ffffff;
+}
+
+.opacity-icon {
+    opacity: 0.8;
+}
+
+
